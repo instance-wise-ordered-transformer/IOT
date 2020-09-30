@@ -1,14 +1,14 @@
 # Introduction 
-This repository contains the code for *Order-adaptive Transformer*, which is submitted to NeurIPS 2020.
+This repository contains the code for *Instance-wise Ordered Transformer (IOT)*.
 
 # Requirements and Installation
 * PyTorch version == 1.0.0
 * Python version >= 3.5
 
-To install Order-adaptive Transformer:
+To install IOT:
 ```shell script
-git clone https://github.com/Authoraaa/Order-adaptive_Transformer
-cd Order-adaptive_Transformer
+git clone https://github.com/instance-wise-ordered-transformer/IOT
+cd IOT
 pip install --editable .
 ```
 
