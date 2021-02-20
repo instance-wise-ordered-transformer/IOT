@@ -1,5 +1,17 @@
 # Introduction 
-This repository contains the code for *Instance-wise Ordered Transformer (IOT)*.
+This repository contains the code for *Instance-wise Ordered Transformer (IOT)*, which is introduced in the ICLR2021 paper [IOT: Instance-wise Layer Reordering for Transformer Structures](https://openreview.net/forum?id=ipUPfYxWZvM).
+
+If you find this work helpful in your research, please cite as:
+```
+@inproceedings{
+zhu2021iot,
+title={{\{}IOT{\}}: Instance-wise Layer Reordering for Transformer Structures},
+author={Jinhua Zhu and Lijun Wu and Yingce Xia and Shufang Xie and Tao Qin and Wengang Zhou and Houqiang Li and Tie-Yan Liu},
+booktitle={International Conference on Learning Representations},
+year={2021},
+url={https://openreview.net/forum?id=ipUPfYxWZvM}
+}
+```
 
 # Requirements and Installation
 * PyTorch version == 1.0.0
