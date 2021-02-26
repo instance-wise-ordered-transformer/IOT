@@ -25,6 +25,8 @@ pip install --editable .
 ```
 
 # Getting Started
+Take IWSLT14 De-En translation as an example.
+
 ### Data Preprocessing
 
 ```shell script
@@ -37,7 +39,9 @@ python preprocess.py --source-lang de --target-lang en \
     --trainpref $TEXT/train --validpref $TEXT/valid --testpref $TEXT/test \
     --destdir data-bin/iwslt14.tokenized.de-en --joined-dictionary
 ```
+
 ### Training
+Encoder order is set to be the default one without reordering (```ENCODER_MAX_ORDER=1```), since the paper finds that both reordering encoder and decoder is not good as reordering decoder only. 
 ```shell script
 #!/bin/bash
 export CUDA_VISIBLE_DEVICES=${1:-0}
